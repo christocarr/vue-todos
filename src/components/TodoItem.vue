@@ -3,6 +3,7 @@
     <p>
       <input type="checkbox" v-on:change="makeComplete">
       {{ todo.name }}
+      <button class="delete-button">x</button>
     </p>
   </div>
 </template>
@@ -28,5 +29,10 @@ export default {
 
   .is-complete {
     text-decoration: line-through;
+  }
+
+  .delete-button {
+    width: 3rem;
+    height: 2rem;
   }
 </style>
