@@ -19,7 +19,7 @@ export default {
         },
         {
           name: 'Todo Two',
-          isCompleted: true,
+          isCompleted: false,
           id: 2
         },
         {
