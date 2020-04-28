@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="todos-wrapper">
     <div v-bind:key="todo.id" v-for="todo in todos">
       <TodoItem v-bind:todo="todo" />
     </div>
@@ -19,5 +19,8 @@ export default {
 </script>
 
 <style scoped>
-
-</style>''
+  .todos-wrapper {
+    width: 90%;
+    margin: auto;
+  }
+</style>
