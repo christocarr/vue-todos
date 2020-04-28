@@ -1,5 +1,5 @@
 <template>
-  <div class="todo-container">
+  <div class="todo-container" v-bind:class="{'is-complete':todo.isCompleted}">
     <p>{{ todo.name }}</p>
   </div>
 </template>
@@ -13,8 +13,12 @@ export default {
 
 <style scoped>
   .todo-container {
-    display: flex;
-    flex-direction: column;
-    border: solid grey 1px;
+    padding: 0.5rem;
+    border-bottom: solid grey 1px;
+    background-color: lightblue;
+  }
+
+  .is-complete {
+    text-decoration: line-through;
   }
 </style>

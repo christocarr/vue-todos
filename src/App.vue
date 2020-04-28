@@ -14,17 +14,17 @@ export default {
       todos: [
         {
           name: 'Todo One',
-          completed: false,
+          isCompleted: false,
           id: 1
         },
         {
           name: 'Todo Two',
-          completed: false,
+          isCompleted: true,
           id: 2
         },
         {
           name: 'Todo Three',
-          completed: false,
+          isCompleted: false,
           id: 3
         }
       ]
