@@ -11,7 +11,11 @@
 export default {
   name: "TodoItem",
   props: ["todo"],
-
+    methods: {
+    makeComplete() {
+      this.todo.isCompleted = !this.todo.isCompleted
+    }
+  }
 }
 </script>
 
