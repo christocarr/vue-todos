@@ -12,5 +12,18 @@ export default {
 </script>
 
 <style scoped>
+  form {
+    display: flex;
+    height: 2rem;
+  }
 
+  form input[type='text'] {
+    flex: 8;
+    padding: 0.5rem;
+    border: none;
+  }
+
+  .button {
+    flex: 2;
+  }
 </style>
