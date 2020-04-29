@@ -22,8 +22,5 @@ export default {
 </script>
 
 <style scoped>
-  .todos-wrapper {
-    width: 90%;
-    margin: auto;
-  }
+
 </style>

@@ -36,6 +36,7 @@ export default {
 
   .delete-button {
     width: 3rem;
-    height: 2rem;
+    float: right;
+    height: 1.5rem;
   }
 </style>
