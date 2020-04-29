@@ -14,5 +14,7 @@ export default {
   header {
     background-color: darkcyan;
     color: white;
+    padding: 0.5rem;
+    text-align: center;
   }
 </style>
